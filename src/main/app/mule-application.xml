@@ -8,6 +8,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
     <flow name="mule-applicationFlow1" doc:name="mule-applicationFlow1">
         <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="HTTP"/>
-        <set-payload value="Simple change :)" doc:name="Set Payload"/>
+        <set-payload value="This is another change :)" doc:name="Set Payload"/>
     </flow>
 </mule>
