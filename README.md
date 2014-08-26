@@ -5,3 +5,4 @@ This is just a basic mule application for use in Jenkins testing and crafting of
 
 
 - Test #1
+- Test #2
